@@ -1,0 +1,37 @@
+[
+  {
+    "id": "DEMO-RULE-001",
+    "title": "Illustrative application completeness check",
+    "reference": "SatyaVerify demo rule 1 (not a statute)",
+    "keywords": [
+      "application id",
+      "applicant name",
+      "date of birth",
+      "address"
+    ],
+    "note": "Confirm required fields are present before routing."
+  },
+  {
+    "id": "DEMO-RULE-002",
+    "title": "Illustrative identity consistency check",
+    "reference": "SatyaVerify demo rule 2 (not a statute)",
+    "keywords": [
+      "identity",
+      "document id",
+      "date of birth"
+    ],
+    "note": "Compare identity fields across documents; route mismatches to a human reviewer."
+  },
+  {
+    "id": "DEMO-RULE-003",
+    "title": "Illustrative signature and issuer verification",
+    "reference": "SatyaVerify demo rule 3 (not a statute)",
+    "keywords": [
+      "signature",
+      "issuer",
+      "qr code",
+      "seal"
+    ],
+    "note": "A keyword match does not verify a signature, QR code, seal, or issuer."
+  }
+]
