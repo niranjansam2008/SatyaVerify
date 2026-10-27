@@ -2,7 +2,7 @@ import React, { useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://satyaverify-backend.onrender.com";
 
 function App() {
   const [files, setFiles] = useState([]);
