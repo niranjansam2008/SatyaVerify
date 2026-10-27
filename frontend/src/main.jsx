@@ -2,7 +2,7 @@ import React, { useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 
-const API = "https://satyaverify-backend.onrender.com";
+const API = "https://satyaverify-backend-docker.onrender.com";
 
 function App() {
   const [files, setFiles] = useState([]);
